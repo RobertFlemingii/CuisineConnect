@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7313C3302A944A3D0083B45B /* ChefProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C32F2A944A3D0083B45B /* ChefProfileView.swift */; };
+		7313C3322A944A500083B45B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C3312A944A500083B45B /* OrderView.swift */; };
+		7313C3342A944A610083B45B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C3332A944A610083B45B /* ReviewView.swift */; };
+		7313C3362A944A750083B45B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C3352A944A750083B45B /* OrderModel.swift */; };
+		7313C3382A944A940083B45B /* ChefModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C3372A944A940083B45B /* ChefModel.swift */; };
+		7313C33A2A944AA20083B45B /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C3392A944AA20083B45B /* MenuModel.swift */; };
+		7313C33C2A944AB30083B45B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C33B2A944AB30083B45B /* NetworkingManager.swift */; };
+		7313C33E2A944AC30083B45B /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313C33D2A944AC30083B45B /* DataStore.swift */; };
 		732A61472A94293200A22ABF /* CuisineConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A61462A94293200A22ABF /* CuisineConnectApp.swift */; };
 		732A61492A94293200A22ABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A61482A94293200A22ABF /* ContentView.swift */; };
 		732A614B2A94293700A22ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732A614A2A94293700A22ABF /* Assets.xcassets */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7313C32F2A944A3D0083B45B /* ChefProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefProfileView.swift; sourceTree = "<group>"; };
+		7313C3312A944A500083B45B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		7313C3332A944A610083B45B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		7313C3352A944A750083B45B /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		7313C3372A944A940083B45B /* ChefModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefModel.swift; sourceTree = "<group>"; };
+		7313C3392A944AA20083B45B /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		7313C33B2A944AB30083B45B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		7313C33D2A944AC30083B45B /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		732A61432A94293200A22ABF /* CuisineConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuisineConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732A61462A94293200A22ABF /* CuisineConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineConnectApp.swift; sourceTree = "<group>"; };
 		732A61482A94293200A22ABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +60,7 @@
 		732A615D2A94293700A22ABF /* CuisineConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuisineConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		732A61612A94293700A22ABF /* CuisineConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineConnectUITests.swift; sourceTree = "<group>"; };
 		732A61632A94293700A22ABF /* CuisineConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73A6377E2A944B9E00F3D68B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +88,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7313C33F2A944ADB0083B45B /* CuisineConnectSource */ = {
+			isa = PBXGroup;
+			children = (
+				732A61462A94293200A22ABF /* CuisineConnectApp.swift */,
+				732A61482A94293200A22ABF /* ContentView.swift */,
+				7313C32F2A944A3D0083B45B /* ChefProfileView.swift */,
+				7313C3312A944A500083B45B /* OrderView.swift */,
+				7313C3332A944A610083B45B /* ReviewView.swift */,
+				7313C3352A944A750083B45B /* OrderModel.swift */,
+				7313C3372A944A940083B45B /* ChefModel.swift */,
+				7313C3392A944AA20083B45B /* MenuModel.swift */,
+				7313C33B2A944AB30083B45B /* NetworkingManager.swift */,
+				7313C33D2A944AC30083B45B /* DataStore.swift */,
+				732A614A2A94293700A22ABF /* Assets.xcassets */,
+				732A614C2A94293700A22ABF /* Preview Content */,
+			);
+			path = CuisineConnectSource;
+			sourceTree = "<group>";
+		};
 		732A613A2A94293200A22ABF = {
 			isa = PBXGroup;
 			children = (
-				732A61452A94293200A22ABF /* CuisineConnect */,
+				73A6377E2A944B9E00F3D68B /* README.md */,
+				7313C33F2A944ADB0083B45B /* CuisineConnectSource */,
 				732A61562A94293700A22ABF /* CuisineConnectTests */,
 				732A61602A94293700A22ABF /* CuisineConnectUITests */,
 				732A61442A94293200A22ABF /* Products */,
@@ -91,23 +128,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		732A61452A94293200A22ABF /* CuisineConnect */ = {
-			isa = PBXGroup;
-			children = (
-				732A61462A94293200A22ABF /* CuisineConnectApp.swift */,
-				732A61482A94293200A22ABF /* ContentView.swift */,
-				732A614A2A94293700A22ABF /* Assets.xcassets */,
-				732A614C2A94293700A22ABF /* Preview Content */,
-			);
-			path = CuisineConnect;
-			sourceTree = "<group>";
-		};
 		732A614C2A94293700A22ABF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				732A614D2A94293700A22ABF /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "../CuisineConnect/Preview Content";
 			sourceTree = "<group>";
 		};
 		732A61562A94293700A22ABF /* CuisineConnectTests */ = {
@@ -257,7 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7313C33A2A944AA20083B45B /* MenuModel.swift in Sources */,
+				7313C3342A944A610083B45B /* ReviewView.swift in Sources */,
+				7313C3302A944A3D0083B45B /* ChefProfileView.swift in Sources */,
+				7313C33E2A944AC30083B45B /* DataStore.swift in Sources */,
+				7313C3382A944A940083B45B /* ChefModel.swift in Sources */,
+				7313C3322A944A500083B45B /* OrderView.swift in Sources */,
 				732A61492A94293200A22ABF /* ContentView.swift in Sources */,
+				7313C33C2A944AB30083B45B /* NetworkingManager.swift in Sources */,
+				7313C3362A944A750083B45B /* OrderModel.swift in Sources */,
 				732A61472A94293200A22ABF /* CuisineConnectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
